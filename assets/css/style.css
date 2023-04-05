@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@600;700&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@600;700&family=Rubik&family=Rubik+Mono+One&display=swap');
+body {
+    background-color:C9EEFF;
+}
+.bg-color1 {
+    background-color: #C9EEFf;
+}
+.bg-color2 {
+  background-color: #ab77ff;
+}
+.bg-color3 {
+  background-color: #97DEFF;
+}
+.navbar {
+    color: rgb(17, 17, 17);
+    z-index: 2;
+}
+.font-style {
+  font-family: 'rubik', sans-serif;
+
+}
+.custom-shape-divider-bottom-1680132444 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1680132444 svg {
+    display: block;
+    width: calc(130% + 1.3px);
+    height: 81px;
+}
+
+.custom-shape-divider-bottom-1680132444 .shape-fill {
+    fill:  #97DEFF;
+}
+
+
+
+
+
+
+
+
+/* responsive */
+@media only screen and (max-width: 376px) {
+ 
+  .font-style {
+    font-size: 1rem;
+  }
+  img {
+    max-width: 150px;
+  }
+  .custom-shape-divider-bottom-1680132444 svg { 
+     height: 21px;
+  }
+}
+@media only screen and (max-width: 770px) {
+    .custom-shape-divider-bottom-1680132444 svg { 
+     height: 41px;
+  }
+}
